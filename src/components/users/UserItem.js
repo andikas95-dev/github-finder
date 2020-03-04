@@ -22,7 +22,7 @@ const UserItem = ({ user: { login, avatar_url, html_url } }) => {
 
 
 //untuk keyword cepat ketik pt = propTypes, o = object, a=array, r=isRequired
-UserItem.PropTypes = {
+UserItem.propTypes = {
     user: PropTypes.object.isRequired,
 }
 
